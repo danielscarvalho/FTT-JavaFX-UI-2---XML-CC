@@ -1,0 +1,11 @@
+
+
+#textAreaComponent {
+	-fx-background-color: black;
+	-fx-text-fill: #00ff00;
+	-fx-padding: 10px;
+	-fx-font:12px "Courier New";
+}
+
+.text-area { -text-area-background: black; }
+.text-area .content { -fx-background-color: -text-area-background;}
